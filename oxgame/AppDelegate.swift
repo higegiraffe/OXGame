@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  oxgame
 //
-//  Created by yuki on 2015/04/11.
+//  Created by higegiraffe on 2015/04/11.
 //  Copyright (c) 2015年 yukinko. All rights reserved.
 //
 

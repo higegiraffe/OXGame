@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D59EA2A1B35103C00620693 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D59EA291B35103C00620693 /* o.png */; };
+		9D59EA2C1B35104300620693 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D59EA2B1B35104300620693 /* x.png */; };
 		9D69BAD21AD95EDA0062F89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69BAD11AD95EDA0062F89A /* AppDelegate.swift */; };
-		9D69BAD41AD95EDA0062F89A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D69BAD31AD95EDA0062F89A /* GameScene.sks */; };
 		9D69BAD61AD95EDA0062F89A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69BAD51AD95EDA0062F89A /* GameScene.swift */; };
 		9D69BAD81AD95EDA0062F89A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69BAD71AD95EDA0062F89A /* GameViewController.swift */; };
 		9D69BADB1AD95EDA0062F89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D69BAD91AD95EDA0062F89A /* Main.storyboard */; };
 		9D69BADD1AD95EDA0062F89A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D69BADC1AD95EDA0062F89A /* Images.xcassets */; };
 		9D69BAE01AD95EDA0062F89A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D69BADE1AD95EDA0062F89A /* LaunchScreen.xib */; };
 		9D69BAEC1AD95EDB0062F89A /* oxgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69BAEB1AD95EDB0062F89A /* oxgameTests.swift */; };
+		9D69BAF61AD962BC0062F89A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D69BAF51AD962BC0062F89A /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D59EA291B35103C00620693 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../Desktop/o.png; sourceTree = "<group>"; };
+		9D59EA2B1B35104300620693 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../Desktop/x.png; sourceTree = "<group>"; };
 		9D69BACC1AD95EC30062F89A /* oxgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oxgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D69BAD01AD95EDA0062F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D69BAD11AD95EDA0062F89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D69BAD31AD95EDA0062F89A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9D69BAD51AD95EDA0062F89A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9D69BAD71AD95EDA0062F89A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9D69BADA1AD95EDA0062F89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		9D69BAE51AD95EDB0062F89A /* oxgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oxgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D69BAEA1AD95EDB0062F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D69BAEB1AD95EDB0062F89A /* oxgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oxgameTests.swift; sourceTree = "<group>"; };
+		9D69BAF51AD962BC0062F89A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				9D69BAD11AD95EDA0062F89A /* AppDelegate.swift */,
-				9D69BAD31AD95EDA0062F89A /* GameScene.sks */,
 				9D69BAD51AD95EDA0062F89A /* GameScene.swift */,
 				9D69BAD71AD95EDA0062F89A /* GameViewController.swift */,
 				9D69BAD91AD95EDA0062F89A /* Main.storyboard */,
@@ -96,6 +99,9 @@
 		9D69BACF1AD95EDA0062F89A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D59EA2B1B35104300620693 /* x.png */,
+				9D59EA291B35103C00620693 /* o.png */,
+				9D69BAF51AD962BC0062F89A /* bg.png */,
 				9D69BAD01AD95EDA0062F89A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -162,6 +168,7 @@
 		9D69BAC41AD95EC30062F89A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = yukinko;
 				TargetAttributes = {
@@ -198,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D59EA2C1B35104300620693 /* x.png in Resources */,
+				9D59EA2A1B35103C00620693 /* o.png in Resources */,
 				9D69BAE01AD95EDA0062F89A /* LaunchScreen.xib in Resources */,
 				9D69BADD1AD95EDA0062F89A /* Images.xcassets in Resources */,
-				9D69BAD41AD95EDA0062F89A /* GameScene.sks in Resources */,
+				9D69BAF61AD962BC0062F89A /* bg.png in Resources */,
 				9D69BADB1AD95EDA0062F89A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +426,7 @@
 				9D69BAF11AD95EDB0062F89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D69BAF21AD95EDB0062F89A /* Build configuration list for PBXNativeTarget "oxgameTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +435,7 @@
 				9D69BAF41AD95EDB0062F89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
