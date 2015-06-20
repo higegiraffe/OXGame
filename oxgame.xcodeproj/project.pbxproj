@@ -30,8 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D59EA291B35103C00620693 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
-		9D59EA2B1B35104300620693 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		9D59EA291B35103C00620693 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../o.png; sourceTree = "<group>"; };
+		9D59EA2B1B35104300620693 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../x.png; sourceTree = "<group>"; };
 		9D69BACC1AD95EC30062F89A /* oxgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oxgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D69BAD01AD95EDA0062F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D69BAD11AD95EDA0062F89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		9D69BAE51AD95EDB0062F89A /* oxgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oxgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D69BAEA1AD95EDB0062F89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D69BAEB1AD95EDB0062F89A /* oxgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oxgameTests.swift; sourceTree = "<group>"; };
-		9D69BAF51AD962BC0062F89A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9D69BAF51AD962BC0062F89A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
